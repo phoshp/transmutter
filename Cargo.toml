@@ -1,6 +1,11 @@
 [package]
 name = "transmutter"
 version = "0.1.0"
+authors = ["phoshp"]
 edition = "2021"
+description = "No-boilerplate safe transmute in Rust"
+repository = "https://github.com/phoshp/transmutter"
+keywords = ["transmute", "safe"]
+license = "MIT"
 
 [dependencies]
