@@ -17,8 +17,6 @@ pub fn transmutte<T, U>(value: T) -> U {
 #[cfg(test)]
 #[allow(dead_code)]
 mod tests {
-    use std::any::{type_name, type_name_of_val};
-
     use super::*;
 
     pub struct Dang {
